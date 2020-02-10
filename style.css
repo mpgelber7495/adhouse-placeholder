@@ -1,3 +1,8 @@
 .ad-logo-letter {
   color: green;
 }
+
+.logo-image-header {
+  float: left;
+  height: 2rem;
+}
