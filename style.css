@@ -5,7 +5,7 @@
 .ui.header > .image:not(.icon),
 .ui.header > img {
   /* float: left; */
-  height: 0.75em;
+  height: 2em;
   width: auto;
   margin: 0px;
 }
@@ -137,4 +137,52 @@ a {
     margin-top: 0.5em;
     font-size: 1.5em;
   }
+}
+
+.full-screen-block {
+  height: 100vh;
+}
+
+/* This line of code prevents a white margin from appearing at the top */
+.pusher {
+  margin: 0;
+}
+
+/* Bouncing arrow CSS */
+/**/
+.fa-arrow-down {
+  color: rgb(227, 49, 49);
+  text-decoration: none;
+  width: 10%;
+}
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+/* END Bouncing arrow CSS */
+/**/
+
+.m-0 {
+  margin: 0;
 }
