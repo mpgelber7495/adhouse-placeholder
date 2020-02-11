@@ -1,10 +1,13 @@
 .ad-logo-letter {
-  color: green;
+  color: rgb(60, 141, 60);
 }
 
-.logo-image-header {
+.ui.header > .image:not(.icon),
+.ui.header > img {
   /* float: left; */
-  height: 1px;
+  height: 0.75em;
+  width: auto;
+  margin: 0px;
 }
 
 body {
