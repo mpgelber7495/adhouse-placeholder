@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./templatedStyling.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-158195016-1"
+    ></script>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no"
+    />
     <meta
       name="description"
       content="An early stage start up that's aiming to provide low-cost targeted ads for health care providers"
@@ -14,57 +20,141 @@
       name="keywords"
       content="Doctor,Dentist,HCP,Health Care,Advertising,Medical Advertising,Advertising Doctors,Online Ads,"
     />
-    <title>AdHouse - Online Ads for HCPs</title>
-    <link rel="icon" type="image/x-icon" href="./adhouse-nobackground.ico" />
-    <!-- Bootstrap core CSS -->
+    <meta name="theme-color" content="#ffffff" />
+    <title>
+      <img src="./adhouse-nobackground.png" class="logo-image-header" />AdHouse
+    </title>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      type="text/css"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <img src="./adhouse-nobackground.png" class="logo-image-header" />
-          <h3 class="masthead-brand">
-            <span class="ad-logo-letter">Ad</span>House
-          </h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
-          </nav>
-        </div>
-      </header>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">
-          Welcome to <span class="ad-logo-letter">Ad</span>House!
-        </h1>
-        <p class="lead">
-          AdHouse is an early stage start up that is focused on providing
-          innovative marketing capabilities to Health Care Providers across the
-          United States. We're currently in development, but you can keep
-          up-to-date by coming back to this site soon!
-        </p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>
-            AdHouse Advertising Corp.
-            <a href="#">Contact</a>
-          </p>
-        </div>
-      </footer>
+  <body id="root">
+    <div class="ui large top fixed hidden menu">
+      <div class="ui container">
+        <a class="active item">Home</a>
+      </div>
     </div>
-  </body>
+    <!--Sidebar Menu-->
+    <div class="ui vertical inverted sidebar menu">
+      <a class="active item">Home</a>
+    </div>
+    <!--Page Contents-->
+    <div class="pusher">
+      <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container">
+          <div class="ui large secondary inverted pointing menu">
+            <a class="toc item"><i class="sidebar icon"></i></a>
+            <a class="active item">Home</a>
+            <div class="right item"></div>
+          </div>
+        </div>
+        <div class="ui text container">
+          <h1 class="ui inverted header">
+            <img src="./adhouse-nobackground.png" class="logo-image-header" />
+            <span class="ad-logo-letter">Ad</span>House
+          </h1>
+          <h2>Low-cost targeted ads for health care providers</h2>
+          <h3>More coming soon</h3>
+        </div>
+      </div>
+      <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="eight wide column">
+              <h3 class="ui header">
+                Low Cost Marketing Solutions For Health Care Providers
+              </h3>
+              <p>
+                AdHouse is an early stage start up that is focused on providing
+                innovative marketing capabilities to Health Care Providers
+                across the United States. We're currently in development, but
+                you can keep up-to-date by coming back to this site soon!
+              </p>
+              <h3 class="ui header">
+                Empowering All Healthcare Providers No Matter the Size or
+                Specialty
+              </h3>
+              <p>
+                Whether your practice serves 10 patients or 1,000, AdHouse will
+                be your champion and help your practice reach it's marketing
+                goals.
+              </p>
+            </div>
+            <div class="six wide right floated column">
+              <img
+                class="ui large bordered rounded image"
+                src="./blockchain-healthcare.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical stripe quote segment">
+        <div class="ui equal width stackable internally celled grid">
+          <div class="center aligned row">
+            <div class="column">
+              <h3>Why Market Your Practice on Your Own?</h3>
+              <a href="mailto:mike@adhouse.app"><p>Drop us a line.</p></a>
+            </div>
+            <!-- <div class="column">
+              <h3>"I shouldn't have gone with their competitor."</h3>
+              <p>Drop us a line.</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical stripe segment"></div>
+      <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+          <div
+            class="ui stackable inverted divided equal height stackable grid"
+          >
+            <div class="three wide column">
+              <h4 class="ui inverted header">About</h4>
+              <div class="ui inverted link list">
+                <a class="item" href="#root">Sitemap</a>
+                <a class="item" href="mailto:mike@adhouse.app">Contact Us</a>
+              </div>
+            </div>
+            <div class="three wide column">
+              <h4 class="ui inverted header">Services</h4>
+              <div class="ui inverted link list">
+                <a class="item" href="#root">Programmatic Advertising</a>
+                <a class="item" href="#root">Managed Service</a>
+              </div>
+            </div>
+            <div class="seven wide column">
+              <h4 class="ui inverted header">AdHouse</h4>
+              <p>
+                ©AdHouse Advertising Corp.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // fix menu when passed
+        $(".masthead").visibility({
+          once: false,
+          onBottomPassed: function() {
+            $(".fixed.menu").transition("fade in");
+          },
+          onBottomPassedReverse: function() {
+            $(".fixed.menu").transition("fade out");
+          }
+        });
 
-  <script src="./script.js"></script>
+        // create sidebar and attach to menu open
+        $(".ui.sidebar").sidebar("attach events", ".toc.item");
+      });
+    </script>
+  </body>
 </html>
