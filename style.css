@@ -19,6 +19,16 @@
 .logo-image-header {
   margin-bottom: 70px;
 }
+
+.demo-button {
+  border: 1px solid gray;
+  padding: 12px;
+  padding-top: 10px;
+  color: rgb(0, 35, 75);
+  background-color: rgba(230, 230, 230, 0.214);
+  font-size: 20px;
+  font-weight: 700;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
