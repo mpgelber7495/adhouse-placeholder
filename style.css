@@ -3,18 +3,32 @@
 }
 
 #adhouse-logo {
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 90px;
 }
+
 .ui.header > .image:not(.icon),
 .ui.header > img {
   /* float: left; */
   height: 2em;
   width: auto;
-  margin: 0px;
+  /* margin: 0px; */
+}
+.logo-image-header {
+  margin-bottom: 70px;
 }
 
+.demo-button {
+  border: 1px solid gray;
+  padding: 12px;
+  padding-top: 10px;
+  color: rgb(0, 35, 75);
+  background-color: rgba(230, 230, 230, 0.214);
+  font-size: 20px;
+  font-weight: 700;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
@@ -33,7 +47,7 @@ a {
   color: black;
 }
 .ui.inverted.segment {
-  background-color: rgb(128, 243, 174);
+  background-color: rgb(196, 255, 220);
   color: black;
 }
 
@@ -143,9 +157,16 @@ a {
     font-size: 1.5em;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .full-screen-block {
+    height: 100vh !important;
+  }
+  .logo-image-header {
+    margin: 0px;
+  }
+}
 .full-screen-block {
-  height: 100vh;
+  height: 60vh;
 }
 
 /* This line of code prevents a white margin from appearing at the top */
