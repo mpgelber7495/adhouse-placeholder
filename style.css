@@ -144,7 +144,11 @@ a {
     font-size: 1.5em;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .full-screen-block {
+    height: 100vh !important;
+  }
+}
 .full-screen-block {
   height: 75vh;
 }
