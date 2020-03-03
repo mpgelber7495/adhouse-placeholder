@@ -8,14 +8,17 @@
   font-weight: 600;
   font-size: 90px;
 }
+
 .ui.header > .image:not(.icon),
 .ui.header > img {
   /* float: left; */
   height: 2em;
   width: auto;
-  margin: 0px;
+  /* margin: 0px; */
 }
-
+.logo-image-header {
+  margin-bottom: 70px;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
@@ -147,6 +150,9 @@ a {
 @media only screen and (max-width: 600px) {
   .full-screen-block {
     height: 100vh !important;
+  }
+  .logo-image-header {
+    margin: 0px;
   }
 }
 .full-screen-block {
